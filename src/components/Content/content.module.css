@@ -1,0 +1,98 @@
+.contentContainer{
+    margin: 80px 0;
+}
+.text{
+    font-size: 25px;
+    text-align: center;
+    margin: 100px;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 30px;
+    align-items: center;
+}
+.inputLink{
+    width: 30%;
+    height: 20px;
+    margin: 0 10px 0 0;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+.buttonLink{
+    box-shadow: 0.5px 0.5px 2px 1px lightsteelblue;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.buttonLink:hover {
+    background-color: lightgrey;
+}
+.shortLink{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: darkcyan;
+}
+.iconStyle{
+    width: 12px;
+    margin: 0 0 0 5px;
+}
+table{
+    width: 90%;
+    text-align: center;
+    margin: 50px auto;
+}
+tr:first-child{
+    width: 60%;
+}
+
+th {
+    width: 20%;
+    padding: 5px;
+    background-color: #daf6ff;
+}
+th > div {
+    display: flex;
+    justify-content: center;
+}
+th:first-child {
+    border-radius: 10px 0 0 0;
+}
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+td {
+    background-color: #f4fcff;
+}
+
+.target {
+    width: 60%;
+    text-align: left;
+    padding: 10px 10px;
+}
+.short{
+    width: 20%;
+}
+.counter{
+    width: 20%;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: darkcyan;
+}
+
+.hasMoreButton{
+    width: 10%;
+    margin: auto;
+    box-shadow: 0.5px 0.5px 2px 1px lightsteelblue;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}

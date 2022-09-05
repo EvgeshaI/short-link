@@ -1,0 +1,30 @@
+.navbarContainer{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.myLinks{
+    box-shadow: 0.5px 0.5px 2px 1px lightsteelblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px 0;
+    cursor: pointer;
+}
+.myLinks:hover {
+    background-color: lightsteelblue;
+}
+.loginButton{
+    display: flex;
+}
+
+.authButton{
+    box-shadow: 0.5px 0.5px 2px 1px lightsteelblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px 0;
+    cursor: pointer;
+}
+.authButton:hover{
+    background-color: lightsteelblue;
+}
